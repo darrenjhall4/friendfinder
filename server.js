@@ -13,7 +13,7 @@ require("./app/routing/apiRoutes.js")(app);
 require("./app/routing/htmlRoutes.js")(app);
 
 
-//Empieza el server
+//Start the server
 app.listen(port, function () {
     console.log("App listening on port " + port);
 }); 

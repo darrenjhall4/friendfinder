@@ -10,6 +10,7 @@ module.exports = function (app) {
     //Connects to home page
     app.get("/", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/home.html"));
+        console.log("ALSO CONNECTED?")
     });
 
     //Connects to home page if anything but "survey" follows the base URL

@@ -4,39 +4,40 @@ var path = require("path");
 var friendsArray = [
   {
     name: "Ron Swanson",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: "",
+    photo: ""
   },
   {
     name: "Leslie Knope",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Andy Dwyer",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "April Ludgate",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Ben Wyatt",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Tom Haverford",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Ann Perkins",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Donna Meagle",
-    friendsArray: '',//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: '',
   },
   {
     name: "Jerry/Larry/Gary Gergich",
-    friendsArray: [1,3,4,5,7,9],//NEED TO CREATE ARRAY NAMED repuestasArray and push user answers to it
+    friendsArray: [1,3,4,5,7,9],
   },
   {
     name: "Chris Traeger",

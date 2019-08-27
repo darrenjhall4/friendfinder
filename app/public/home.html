@@ -8,21 +8,26 @@
   <title>Home</title>
   <script src="assets/frontend.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <div>
-    <a href="/survey"><button class="btn btn-lg btn-primary">
-        <h4><span class="fa fa-list-alt"></span> Go to Survey</h4>
-      </button></a>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome to Friend Forest!</h1>
+      <hr>
+      <a href="survey.html"><button class="btn btn-success btn-lg"><span class="fa fa-plus"></span>Take Survey</button></a>
+    </div>
+    <div class="row">
 
-    <a href="/api/friends">API Friends List</a>
+      <div class="col-12">
+          <!-- <a href="/survey"><button class="btn btn-lg btn-primary">
+            <h4><span class="fa fa-list-alt"></span> Go to Survey</h4>
+          </button></a> -->
 
+        <a href="/api/friends">API Friends List</a>
 
-  </div>
-
- 
-
+    </div>
 
 </body>
 
